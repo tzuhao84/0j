@@ -10,10 +10,7 @@ a=quiz[0]
 b=quiz[1]
 c=min(a,b)
 
-# print(is_prime(a),is_prime(b))
-# print(c)
-
-if is_prime(a) or is_prime(b):
+if is_prime(a) and is_prime(b):
     print(1)
 else:
     for i in range(c,0,-1):
