@@ -1,8 +1,5 @@
 # tzuhao solution for a022
 
-from audioop import reverse
-
-
 quiz=input()
 # print(quiz)
 ls=list(quiz)
