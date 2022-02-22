@@ -13,12 +13,10 @@ while True:
         while (reversels[0]=='0'):
             if len(reversels)>1:
                 reversels.pop(0)
-            if len(reversels)==1:
+            if len(reversels)==1:     # to prevent the case '0'
                 break
-            # print(reversels)
-        # if reversels:
+        
         print("".join(reversels))
-        # else:
-        #     print('0')
+ 
     except:
         break
