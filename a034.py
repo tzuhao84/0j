@@ -9,17 +9,7 @@ while True:
             # print('dec//(2**index)=',dec//(2**index))
             index=index+1   
         # print('highest digit=',index)
-
-        modulus=1
         binarylist=[]
-        # while(modulus!=0):
-        #     modulus=dec%(2**index)
-        #     print('modulus=',modulus)
-        #     tobinary=dec//(2**index)
-        #     binarylist.append(tobinary)
-        #     dec=modulus
-        #     print('dec=',dec)
-        #     index=index-1
         for i in range(index,-1,-1):
             modulus=dec%(2**index)
             # print('modulus=',modulus)
